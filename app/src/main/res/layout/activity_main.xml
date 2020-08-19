@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Edtlocation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Location" />
+
+    <EditText
+        android:id="@+id/edtRudius"
+        android:hint="Radius"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtTypes"
+        android:hint="Types"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp" />
+    <EditText
+        android:id="@+id/edtName"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:onClick="btnGet"
+        android:text="GET"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+</LinearLayout>
